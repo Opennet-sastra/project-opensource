@@ -1,0 +1,13 @@
+[package]
+name = "app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+storage = { workspace = true }
+sync = { workspace = true }
+dioxus = { workspace = true }

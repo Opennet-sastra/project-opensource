@@ -1,0 +1,3 @@
+[application]
+name = "opennet"
+default_platform = "android"

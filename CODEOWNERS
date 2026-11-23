@@ -1,0 +1,7 @@
+# Global owners
+* @opennet-maintainers
+
+# Restricted governance areas (admins only)
+/.github/ @opennet-admins
+/deny.toml @opennet-admins
+/signing/ @opennet-admins
