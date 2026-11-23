@@ -6,9 +6,9 @@ check:
     cargo clippy --workspace --all-targets -- -D warnings
     cargo test --workspace
 
-# Build debug Android APK for the app
+# Build debug Android APK for the app (targets ARM64 physical phones)
 apk:
-    cd crates/app && dx build --android
+    cd crates/app && dx build --android --target aarch64-linux-android
 
 # Build Windows Desktop .exe (optimized release)
 desktop:
